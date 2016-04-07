@@ -1,0 +1,106 @@
+*  {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 1050px;
+}
+#wrapper #heading  {
+	background-color: #A9A9A9;
+	width: 1050px;
+	height: 300px;
+	overflow: hidden;
+}
+#wrapper #heading #page_info  {
+	width: 755px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+}
+#wrapper #heading #page_info h1  {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 2em;
+	color: #343684;
+	padding-left: 20px;
+}
+#wrapper #heading #page_info h2  {
+	color: #FD6607;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	padding-left: 20px;
+}
+#wrapper #heading #page_info ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF;
+	font-size: 0.7em;
+	float: left;
+	height: 30px;
+	width: 89px;
+	text-align: center;
+	margin-top: 10px;
+	background-clip: padding-box;
+	background-color: #343684;
+	-webkit-border-radius: 12px 12px 0px 0px;
+	-moz-border-radius: 12px 12px 0px 0px;
+	border-radius: 12px 12px 0px 0px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	
+  -webkit-box-shadow: -5px 2px 4px 0px #000000;
+     -moz-box-shadow: -5px 2px 4px 0px #000000;
+          box-shadow: -5px 2px 4px 0px #000000;
+
+}
+#wrapper #heading #title_info  {
+	width: 265px;
+	float: left;
+}
+#wrapper #heading #title_info h1  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 10px;
+}
+#wrapper #heading #title_info .black  {
+	color: #000000;
+}
+#wrapper #content {
+	background-image: url(images/banner_bar.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	position: relative;
+	top: -10px;
+	padding-top: 80px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+}
+#wrapper #content p {
+	padding-bottom: 10px;
+}
+#wrapper #heading #page_info ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#wrapper #heading #page_info ul li:hover {
+	background-color: #FFFFFF;
+}
+#wrapper #heading #page_info ul li:hover a {
+	color: #348472;
+}
+#wrapper #heading #page_info ul li.current {
+	background-color: #FFFFFF;
+}
+#wrapper #heading #page_info ul li.current a {
+	color: #343684;
+}
